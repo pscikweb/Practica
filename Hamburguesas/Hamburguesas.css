@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: darkblue;
+    color:aliceblue;
+
+    
+    padding: 10px
+}
+
+.row{
+display:flex;
+flex-direction: row;
+}
+
+.column{
+    display:flex;
+  flex-direction: column;  
+}
+
+.ensancha1{
+    flex-grow: 1;
+}
+
+.Pan {
+background-color: burlywood;
+height: 100px;
+padding-top: 2em;
+padding-bottom: 2em;
+border-radius: 2em;
+
+}
+
+.Lechuga {
+    background-color: green;
+    height:2em;
+}
+
+.Queso {
+    background-color: yellow;
+    height:2em;
+}
+
+.carne {
+    background-color: brown;
+    height:2em;
+}

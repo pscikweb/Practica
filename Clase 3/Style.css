@@ -1,0 +1,29 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+}
+
+section {background-color: plum;
+    border: 2px solid purple;
+    grid-column:span 2;
+
+}
+
+
+aside {
+    background-color: aqua;
+}
+
+
+
+#principal{ background-color: chartreuse;
+
+grid-column: 1 / 4;
+}
